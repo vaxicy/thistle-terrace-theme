@@ -1,0 +1,48 @@
+{
+  "name": "thistle-terrace-theme",
+  "displayName": "Thistle & Terrace Theme",
+  "description": "Thistle purple over a sage terrace, in a light and a dark cut.",
+  "version": "1.0.0",
+  "publisher": "lilinhuang",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light",
+    "dark",
+    "purple",
+    "thistle",
+    "terrace",
+    "sage",
+    "mauve",
+    "lilac"
+  ],
+  "icon": "assets/icon.png",
+  "license": "SEE LICENSE IN LICENSE",
+  "galleryBanner": {
+    "color": "#2E1F31",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vaxicy/thistle-terrace-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Thistle & Terrace Light",
+        "uiTheme": "vs",
+        "path": "./themes/thistle-terrace-light-color-theme.json"
+      },
+      {
+        "label": "Thistle & Terrace Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/thistle-terrace-dark-color-theme.json"
+      }
+    ]
+  }
+}

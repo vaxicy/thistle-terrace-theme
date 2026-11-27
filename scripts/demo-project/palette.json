@@ -1,0 +1,15 @@
+{
+  "name": "Tidepool & Azalea",
+  "tones": ["tide", "deepTide", "aqua", "sky", "azalea", "lilac", "dusk"],
+  "colors": {
+    "tide": "#2A6F8F",
+    "deepTide": "#17414F",
+    "aqua": "#98F4F4",
+    "foam": "#E9FFF9",
+    "sky": "#9CDDFD",
+    "azalea": "#B86FAE",
+    "lilac": "#C297CC",
+    "petal": "#F7B0CB",
+    "dusk": "#7A3F63"
+  }
+}

@@ -1,0 +1,27 @@
+:root {
+  --tide: #2a6f8f;
+  --deep-tide: #17414f;
+  --aqua: #98f4f4;
+  --foam: #e9fff9;
+  --sky: #9cddfd;
+  --azalea: #b86fae;
+  --lilac: #c297cc;
+  --petal: #f7b0cb;
+  --dusk: #7a3f63;
+  --ink: #173038;
+}
+
+.shore-card {
+  background: var(--foam);
+  border: 1px solid var(--aqua);
+  border-radius: 16px;
+  color: var(--ink);
+  padding: 16px 20px;
+  box-shadow: 0 6px 20px rgba(23, 65, 79, 0.14);
+}
+
+.wave-rule {
+  background: linear-gradient(90deg, var(--tide), var(--aqua), var(--azalea));
+  height: 4px;
+  border-radius: 999px;
+}
